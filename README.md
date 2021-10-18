@@ -6,4 +6,5 @@ The purpose of this project was to remove student scores from Thomas High School
 ## Results
 __How is the district summary affected?__
 
-![Original District Summary](./Resources/district_summary_OG.png)
+##![Original District Summary](./Resources/district_summary_OG.png)
+##![Re-Analyzed District Summary](./Resources/district_summary_reval.png)
