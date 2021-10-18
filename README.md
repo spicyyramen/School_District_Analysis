@@ -30,7 +30,7 @@ _Re-analyzed School Summary_
         
 ### __How does replacing the 9th grade scores affect the following__:
 
-- *Math and reading scores by grade* 
+***Math and reading scores by grade*** 
 
 _Original_
 ![Original](./Resources/math_by_grade_OG.png)
@@ -41,7 +41,7 @@ _Re-analyzed_
    - The math and reading scores, as expected, are unaffected with the exception of the missing Thomas High 9th grade scores labeled as 'nan'. 
     
         
-- *Scores by school spending*
+***Scores by school spending***
 
 _Original_
 ![Original](./Resources/spending_summary_OG.png)
@@ -49,11 +49,11 @@ _Original_
 _Re-analyzed_    
 ![Re-analyzed](./Resources/spending_summary_reval.png)
 
-   - The scores based on school size were not significantly impacted by removal of Thomas High 9th grade student scores.
+- The scores based on school size were not significantly impacted by removal of Thomas High 9th grade student scores.
     
     
     
-- *Scores by school size*
+***Scores by school size***
 
  _Original_
  ![Original](./Resources/size_sum_OG.png)
@@ -63,7 +63,7 @@ _Re-analyzed_
 
    - The scores based on school size were not significantly impacted by removal of Thomas High 9th grade student scores.
     
-- *Scores by school type*:
+***Scores by school type***
 
 _Original_
 ![Original](./Resources/type_sum_OG.png)
@@ -76,14 +76,14 @@ _Re-analyzed_
 ## Summary
 - Overall, the removal of Thomas High School's 9th grade student scores had little impact on school district metrics. The minor differences in score calculations were undetectable after formatting decimals appropriately. 
 
-- Four changes:
-     1. The number of total students in the district summary was decreased by 461, which accounts for the removed Thomas High School 9th grade students.
+***Four changes:***
+1. The number of total students in the district summary was decreased by 461, which accounts for the removed Thomas High School 9th grade students.
 
-     2. In the District Summary DataFrame, the Average Math Score was *decreased* by **0.1**.
+2. In the District Summary DataFrame, the Average Math Score was *decreased* by **0.1**.
 
-     3. In the ```per_school_summary``` dataframe, Thomas High School's **Average Reading Score** actually *increased* by 0.1 after the re-analysis.
+3. In the ```per_school_summary``` dataframe, Thomas High School's **Average Reading Score** actually *increased* by 0.1 after the re-analysis.
 
-     4. In the ```math_scores_by_grade``` and ```reading_scores_by_grade``` dataframes, the values for all Thomas High School 9th grade student scores were changed to ```nan```.
+4. In the ```math_scores_by_grade``` and ```reading_scores_by_grade``` dataframes, the values for all Thomas High School 9th grade student scores were changed to ```nan```.
 
 
 
