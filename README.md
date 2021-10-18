@@ -36,6 +36,7 @@ _Original_
     
 _Re-analyzed_
 ![Re-analyzed](./Resources/math_by_grade_reval.png)
+    
     - The math and reading scores, as expected, are unaffected with the exception of the missing Thomas High 9th grade scores labeled as 'nan'. 
     
         
@@ -45,6 +46,7 @@ _Original_
 
 _Re-analyzed_    
 ![Re-analyzed](./Resources/spending_summary_reval.png)
+
     - The scores based on school size were not significantly impacted by removal of Thomas High 9th grade student scores.
     
     
@@ -55,15 +57,18 @@ _Re-analyzed_
  
 _Re-analyzed_   
 ![Re-analyzed](./Resources/size_sum_reval.png)
+
     - The scores based on school size were not significantly impacted by removal of Thomas High 9th grade student scores.
     
 - *Scores by school type*:
+
 _Original_
 ![Original](./Resources/type_sum_OG.png)
 
 _Re-analyzed_  
 ![Re-analyzed](./Resources/type_sum_reval.png)
-- The scores based on school type were not significantly impacted by removal of Thomas High 9th grade student scores.
+
+    - The scores based on school type were not significantly impacted by removal of Thomas High 9th grade student scores.
     
 ## Summary
 - Overall, the removal of Thomas High School's 9th grade student scores had little impact on school district metrics. The minor differences in score calculations were undetectable after formatting decimals appropriately. 
