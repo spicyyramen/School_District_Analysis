@@ -54,9 +54,9 @@ The purpose of this project was to remove student scores from Thomas High School
     
 -- *Scores by school type*:
     ![Original](./Resources/type_sum_OG.png)
-    _Original_
+        _Original_
     ![Re-analyzed](./Resources/type_sum_reval.png)
-    _Re-analyzed_
+        _Re-analyzed_
     The scores based on school type were not significantly impacted by removal of Thomas High 9th grade student scores.
     
 ## Summary
