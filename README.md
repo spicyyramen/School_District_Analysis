@@ -13,7 +13,8 @@ The purpose of this project was to remove student scores from Thomas High School
 ### __How is the school summary affected?__
 _Original School Summary_
 ![Original School Summary](./Resources/per_school_sum_OG.png)
- _Re-analyzed School Summary_    
+
+_Re-analyzed School Summary_    
 ![Re-analyzed School Summary](./Resources/per_school_sum_reval.png)
 
 - The school summaries don't have any significant differences.
@@ -21,42 +22,50 @@ _Original School Summary_
 ### __How was Thomas High School's performance affected relative to other schools after changes?__
 _Original School Summary_
 ![Original Top 5 Schools](./Resources/top5_OG.png)
-_Re-analyzed School Summary_   
+
+_Re-analyzed School Summary_
 ![Re-analyzed Top 5 Schools](./Resources/top5_reval.png)
    
 - Comparing the original 'Top 5 Schools' to the re-analyzed version, it is apparent that Thomas High School's performance with respect to other schools was unaffected- the position of each school on the list remained the same. So while there were some minor changes to score averages and passing percentages, they weren't significant enough to alter the school positions.
         
 ### __How does replacing the 9th grade scores affect the following__:
+
 - *Math and reading scores by grade*: 
-    _Original_
+_Original_
     ![Original](./Resources/math_by_grade_OG.png)
-    _Re-analyzed_
-    ![Re-analyzed](./Resources/math_by_grade_reval.png)
     
+_Re-analyzed_
+    ![Re-analyzed](./Resources/math_by_grade_reval.png)
     - The math and reading scores, as expected, are unaffected with the exception of the missing Thomas High 9th grade scores labeled as 'nan'. 
     
         
 - *Scores by school spending*:
 _Original_
-    ![Original](./Resources/spending_summary_OG.png)
+
+   ![Original](./Resources/spending_summary_OG.png)
 _Re-analyzed_    
-    ![Re-analyzed](./Resources/spending_summary_reval.png)
+
+   ![Re-analyzed](./Resources/spending_summary_reval.png)
     - The scores based on school size were not significantly impacted by removal of Thomas High 9th grade student scores.
     
     
     
 - *Scores by school size*:
  _Original_
-    ![Original](./Resources/size_sum_OG.png)
+ 
+   ![Original](./Resources/size_sum_OG.png)
 _Re-analyzed_   
-    ![Re-analyzed](./Resources/size_sum_reval.png)
+
+   ![Re-analyzed](./Resources/size_sum_reval.png)
     - The scores based on school size were not significantly impacted by removal of Thomas High 9th grade student scores.
     
 - *Scores by school type*:
 _Original_
-    ![Original](./Resources/type_sum_OG.png)
-_Re-analyzed_        
-    ![Re-analyzed](./Resources/type_sum_reval.png)
+
+   ![Original](./Resources/type_sum_OG.png)
+_Re-analyzed_  
+
+   ![Re-analyzed](./Resources/type_sum_reval.png)
     - The scores based on school type were not significantly impacted by removal of Thomas High 9th grade student scores.
     
 ## Summary
