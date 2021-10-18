@@ -31,11 +31,13 @@ _Re-analyzed School Summary_
 ### __How does replacing the 9th grade scores affect the following__:
 
 ***Math and reading scores by grade*** 
-
+  
 _Original_
+
 ![Original](./Resources/math_by_grade_OG.png)
-    
+      
 _Re-analyzed_
+
 ![Re-analyzed](./Resources/math_by_grade_reval.png)
     
    - The math and reading scores, as expected, are unaffected with the exception of the missing Thomas High 9th grade scores labeled as 'nan'. 
